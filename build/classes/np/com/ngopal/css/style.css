@@ -1,0 +1,24 @@
+.anim-list-cell {
+    -fx-font-size:45px;
+    -fx-font-family: 'Segoe Script';
+}
+.anim-list-cell:selected,.anim-list-cell:selected:hover{
+    -fx-border-color:linear-gradient(to bottom,transparent,rgb(22,22,22,1));
+    -fx-border-width:2 2 2 10px;
+    -fx-effect:innershadow( three-pass-box,#764b0c,30,0.3,0,0);
+}
+.anim-list-cell:hover{
+    -fx-border-color:rgb(255,255,255,0.7);
+    -fx-border-width:1 1 1 10px;
+}
+.anim-list-cell{
+    -fx-background-image: url('../img/wooden.png') ,url('../img/gloss.png');
+    -fx-background-repeat: repeat,no-repeat;
+    -fx-background-position:left top;
+    -fx-background-size: auto,100% 40%;
+}
+.anim-list-cell:odd{
+
+    -fx-background-image: url('../img/wooden2.png') ,url('../img/gloss.png');
+    -fx-background-repeat: repeat,no-repeat;
+}
